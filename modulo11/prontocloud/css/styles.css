@@ -129,3 +129,12 @@ footer {
   width: 100%;
   padding: 20px;
 }
+
+.container form {
+  height: 400px !important;
+  overflow: hidden !important;
+}
+
+.cog-form__content {
+  padding: 20px !important;
+}
