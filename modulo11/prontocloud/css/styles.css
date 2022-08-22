@@ -121,6 +121,11 @@ section article {
   width: 70%;
 }
 
+.article img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   background-color: #254159;
   color: #fff;
@@ -137,4 +142,55 @@ footer {
 
 .cog-form__content {
   padding: 20px !important;
+}
+
+/* ------- Responsividade -------- */
+
+@media (max-width: 600px) {
+  section nav,
+  section article {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .article img {
+    width: 100%;
+    height: auto;
+  }
+
+  ol {
+    margin: 5px auto;
+  }
+
+  .cog-form__content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  header,
+  .article img {
+    display: none;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
 }
